@@ -1,0 +1,63 @@
+x=0
+dy=1/(k*(k+x))
+y=symsum(dy,k,1,inf)
+fprintf("%.15f",eval(y))
+
+x=0.5
+dy=1/(k*(k+x))
+y=symsum(dy,k,1,inf)
+fprintf("%.15f",eval(y))
+
+x=sqrt(2)
+dy=1/(k*(k+x))
+y=symsum(dy,k,1,inf)
+fprintf("%.15f",eval(y))
+
+x=10
+dy=1/(k*(k+x))
+y=symsum(dy,k,1,inf)
+fprintf("%.15f",eval(y))
+
+x=100
+dy=1/(k*(k+x))
+y=symsum(dy,k,1,inf)
+fprintf("%.15f",eval(y))
+
+x=300
+dy=1/(k*(k+x))
+y=symsum(dy,k,1,inf)
+fprintf("%.15f",eval(y))
+
+y =
+ 
+pi^2/6
+ 
+1.644934066848226
+
+y =
+ 
+4 - 4*log(2)
+ 
+1.227411277760219
+
+y =
+ 
+(eulergamma*2^(1/2))/2 + (2^(1/2)*psi(2^(1/2) + 1))/2
+ 
+0.874982996020950
+
+y =
+ 
+7381/25200
+ 
+0.292896825396825
+
+y =
+ 
+14466636279520351160221518043104131447711/278881500918849908658135235741249214227200
+ 
+0.051873775176396
+
+
+
+
